@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         ListView emailListView = findViewById(R.id.emailListView);
 
-        // Agregando datos de ejemplo con mensajes específicos
+
         emailItems.add(new EmailItem(R.drawable.persona1, "Persona 1", false, "Este es el mensaje para Persona 1."));
         emailItems.add(new EmailItem(R.drawable.persona2, "Persona 2", false, "Mensaje especial de Persona 2."));
         emailItems.add(new EmailItem(R.drawable.persona3, "Persona 3", false, "Aquí va el texto para Persona 3."));

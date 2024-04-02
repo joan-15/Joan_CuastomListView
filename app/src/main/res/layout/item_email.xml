@@ -9,7 +9,7 @@
         android:id="@+id/imageViewProfile"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:src="@drawable/persona1" /> <!-- Esta imagen se establece como predeterminada -->
+        android:src="@drawable/persona1" />
 
     <LinearLayout
         android:layout_width="0dp"
