@@ -1,4 +1,5 @@
 package com.joan.listview_joan;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -21,12 +22,18 @@ public class EmailAdapter extends ArrayAdapter<EmailItem> {
         }
 
         ImageView imageViewProfile = convertView.findViewById(R.id.imageViewProfile);
-        TextView textViewName = convertView.findViewById(R.id.textViewName);
+        TextView textViewDate = convertView.findViewById(R.id.textViewDate);
+        TextView textViewTitle = convertView.findViewById(R.id.textViewTitle);
+        TextView textViewPreview = convertView.findViewById(R.id.textViewPreview);
+        TextView textViewCountry = convertView.findViewById(R.id.textViewCountry);
         ImageView imageViewRead = convertView.findViewById(R.id.imageViewRead);
 
         EmailItem item = getItem(position);
         imageViewProfile.setImageResource(item.getImageResource());
-        textViewName.setText(item.getName());
+        textViewDate.setText(item.getDate());
+        textViewTitle.setText(item.getTitle());
+        textViewPreview.setText(item.getPreview());
+        textViewCountry.setText(item.getCountry());
         imageViewRead.setVisibility(item.isRead() ? View.INVISIBLE : View.VISIBLE);
 
         return convertView;

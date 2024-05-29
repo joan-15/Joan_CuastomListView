@@ -19,11 +19,32 @@
         android:layout_marginStart="16dp">
 
         <TextView
-            android:id="@+id/textViewName"
+            android:id="@+id/textViewDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nombre Persona"
+            android:text="Fecha"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Título"
             android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewPreview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preview"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textViewCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="País"
+            android:textSize="14sp" />
 
     </LinearLayout>
 
