@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         ListView emailListView = findViewById(R.id.emailListView);
 
         // Agregando datos de ejemplo con mensajes específicos
-        emailItems.add(new EmailItem(R.drawable.persona1, "01/01/2023", "Titulo 1", "Inicio del mensaje 1...", "Pais 1", false, "Este es el mensaje completo para Persona 1."));
+        emailItems.add(new EmailItem(R.drawable.persona1, "01/01/2023", "Fiesta", "hola buenas noches mi estimado caballero el motivo de este mensaje es hacerle llegar el conocimiento de la proxima reunion de amigos que tenemos preparada para este din de semana, espero contar con su presencia.", "Colombia", false, "Este es el mensaje completo para Persona 1."));
         emailItems.add(new EmailItem(R.drawable.persona2, "02/02/2023", "Titulo 2", "Inicio del mensaje 2...", "Pais 2", false, "Mensaje completo especial de Persona 2."));
         emailItems.add(new EmailItem(R.drawable.persona3, "03/03/2023", "Titulo 3", "Inicio del mensaje 3...", "Pais 3", false, "Aquí va el texto completo para Persona 3."));
         emailItems.add(new EmailItem(R.drawable.persona4, "04/04/2023", "Titulo 4", "Inicio del mensaje 4...", "Pais 4", false, "Descripción completa para Persona 4."));
