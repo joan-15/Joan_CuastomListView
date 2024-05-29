@@ -19,11 +19,11 @@ public class MainActivity extends AppCompatActivity {
         ListView emailListView = findViewById(R.id.emailListView);
 
         // Agregando datos de ejemplo con mensajes específicos
-        emailItems.add(new EmailItem(R.drawable.persona1, "01/01/2023", "Fiesta", "hola buenas noches mi estimado caballero el motivo de este mensaje es hacerle llegar el conocimiento de la proxima reunion de amigos que tenemos preparada para este din de semana, espero contar con su presencia.", "Colombia", false, "Este es el mensaje completo para Persona 1."));
-        emailItems.add(new EmailItem(R.drawable.persona2, "02/02/2023", "Titulo 2", "Inicio del mensaje 2...", "Pais 2", false, "Mensaje completo especial de Persona 2."));
-        emailItems.add(new EmailItem(R.drawable.persona3, "03/03/2023", "Titulo 3", "Inicio del mensaje 3...", "Pais 3", false, "Aquí va el texto completo para Persona 3."));
-        emailItems.add(new EmailItem(R.drawable.persona4, "04/04/2023", "Titulo 4", "Inicio del mensaje 4...", "Pais 4", false, "Descripción completa para Persona 4."));
-        emailItems.add(new EmailItem(R.drawable.persona5, "05/05/2023", "Titulo 5", "Inicio del mensaje 5...", "Pais 5", false, "Información completa relevante de Persona 5."));
+        emailItems.add(new EmailItem(R.drawable.persona1, "14/05/2024", "Fiesta", "hola, buenas tardes...", "Colombia", false, "hola, buenas tardes, como te encuentra? estas listo para la fista del fin de semana ? espero que puedas venir."));
+        emailItems.add(new EmailItem(R.drawable.persona2, "29/05/2024", "cita medica", "buenas tades...", "colombia", false, "buenas tades señor el siguiente mensaje es un recordatorio sobre su cita de este sabado."));
+        emailItems.add(new EmailItem(R.drawable.persona3, "22/04/2024", "visita", "Hola amigo...", "canada", false, "Hola amigo, voy a estar de visita por colombia el proximo mes y quero que nos reunamos por los viejos tiempos."));
+        emailItems.add(new EmailItem(R.drawable.persona4, "04/04/2024", "winer", "hello, you are...", "USA", false, "hello, you are the winner of a guided tour of neuralink's offices. click on the link below"));
+        emailItems.add(new EmailItem(R.drawable.persona5, "01/05/2024", "profesora", "fehca de entrega...", "chile", false, "fecha de entrega para el trabajo remoto es para el dia 08/06/2024"));
 
         emailAdapter = new EmailAdapter(this, emailItems);
         emailListView.setAdapter(emailAdapter);
